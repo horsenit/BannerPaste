@@ -1,0 +1,27 @@
+<Module>
+    <Name value="BannerPaste"/>
+    <Id value="BannerPaste"/>
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="CustomBattle"/>
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="BannerPaste"/>
+            <DLLName value="BannerPaste.dll"/>
+            <SubModuleClassType value="BannerPaste.BannerPasteModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+    </Xmls>
+</Module>

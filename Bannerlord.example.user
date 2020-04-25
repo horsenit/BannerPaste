@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example file, copy to Bannerlord.user to take effect -->
+<Project>
+    <PropertyGroup>
+        <BannerlordPath>C:\Games\Steam\SteamApps\common\Mount &amp; Blade II Bannerlord</BannerlordPath>
+    </PropertyGroup>
+</Project>
